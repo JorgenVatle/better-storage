@@ -5,8 +5,8 @@ import { Meteor } from 'meteor/meteor';
  */
 interface LocalStorage {
     getItem(key: string): string | null;
-    removeItem(key: string): undefined;
-    setItem(key: string, value: string): undefined;
+    removeItem(key: string): void;
+    setItem(key: string, value: string): void;
 }
 
 export default class BetterStorage {
