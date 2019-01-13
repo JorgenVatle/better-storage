@@ -14,4 +14,14 @@ export default class BetterStorage {
     // @ts-ignore
     private storage: LocalStorage = Meteor._localStorage;
 
+    /**
+     * Fetch and parse item from local storage.
+     *
+     * @param key
+     */
+    private getItem(key: string) {
+        const item = this.storage.getItem(key) || 'null';
+
+        return JSON.parse(item);
+    }
 }
