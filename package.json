@@ -12,9 +12,8 @@
   },
   "keywords": [
     "meteor",
-    "better",
-    "storage",
-    "localstorage"
+    "better storage",
+    "local storage"
   ],
   "author": "Jørgen Vatle <Jorgen@WcAServices.net> (https://github.com/JorgenVatle)",
   "license": "ISC",
