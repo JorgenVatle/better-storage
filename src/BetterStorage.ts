@@ -19,7 +19,7 @@ export default class BetterStorage {
      *
      * @param key
      */
-    private getItem(key: string) {
+    public getItem(key: string) {
         const item = this.storage.getItem(key) || 'null';
 
         return JSON.parse(item);
