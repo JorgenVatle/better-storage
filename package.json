@@ -5,7 +5,8 @@
   "main": "dist/BetterStorage.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc"
+    "prepublish": "tsc",
+    "postpublish": "git push --tags"
   },
   "repository": {
     "type": "git",
