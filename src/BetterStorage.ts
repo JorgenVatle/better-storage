@@ -34,4 +34,13 @@ export default class BetterStorage {
     public setItem(key: string, value: any) {
         this.storage.setItem(key, JSON.stringify(value));
     }
+
+    /**
+     * Remove the given item from local storage.
+     *
+     * @param key
+     */
+    public removeItem(key: string) {
+        this.storage.removeItem(key);
+    }
 }
