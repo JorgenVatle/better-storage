@@ -9,7 +9,7 @@ interface LocalStorage {
     setItem(key: string, value: string): void;
 }
 
-export default class BetterStorage {
+export default new class BetterStorage {
 
     // @ts-ignore
     private storage: LocalStorage = Meteor._localStorage;
