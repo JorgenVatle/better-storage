@@ -25,7 +25,7 @@ BetterStorage.fetch('my-key') // => null
 
 ```
 
-## Usage
+## Methods
 ##### Store item
 ```js
 BetterStorage.set('some-key', { some: 'value' });
@@ -36,7 +36,7 @@ BetterStorage.set('some-key', { some: 'value' });
 BetterStorage.fetch('some-key');
 ```
 
-#### Remove item
+##### Remove item
 ```js
 BetterStorage.remove('some-key');
 ```
