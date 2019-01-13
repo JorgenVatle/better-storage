@@ -19,7 +19,7 @@ export default class BetterStorage {
      *
      * @param key
      */
-    public getItem(key: string) {
+    public fetch(key: string) {
         const item = this.storage.getItem(key) || 'null';
 
         return JSON.parse(item);
@@ -31,7 +31,7 @@ export default class BetterStorage {
      * @param key
      * @param value
      */
-    public setItem(key: string, value: any) {
+    public set(key: string, value: any) {
         this.storage.setItem(key, JSON.stringify(value));
     }
 
@@ -40,7 +40,7 @@ export default class BetterStorage {
      *
      * @param key
      */
-    public removeItem(key: string) {
+    public remove(key: string) {
         this.storage.removeItem(key);
     }
 }
