@@ -24,4 +24,14 @@ export default class BetterStorage {
 
         return JSON.parse(item);
     }
+
+    /**
+     * Push the given value into local storage with the given key.
+     *
+     * @param key
+     * @param value
+     */
+    public setItem(key: string, value: any) {
+        this.storage.setItem(key, JSON.stringify(value));
+    }
 }
