@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/JorgenVatle/better-storage/issues"
   },
-  "homepage": "https://github.com/JorgenVatle/better-storage#readme"
+  "homepage": "https://github.com/JorgenVatle/better-storage#readme",
+  "devDependencies": {
+    "@types/meteor": "^1.4.24",
+    "@types/node": "^10.12.18",
+    "typescript": "^3.2.2"
+  }
 }
