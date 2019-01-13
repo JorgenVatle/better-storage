@@ -28,3 +28,8 @@ BetterStorage.remove('some-key');
 
 BetterStorage.fetch('some-key'); // => null
 ```
+
+## License
+This repository is licensed under the ISC license.
+
+Copyright (c) 2019, Jørgen Vatle.
