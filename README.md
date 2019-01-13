@@ -11,6 +11,20 @@ npm i meteor-better-storage
 import BetterStorage from 'meteor-better-storage';
 ```
 
+## Example use
+```js
+// Set a value
+BetterStorage.set('my-key', { my: 'value' });
+
+// Fetch a value
+BetterStorage.fetch('my-key'); // => { my: 'value' }
+
+// Remove object
+BetterStorage.remove('my-key');
+BetterStorage.fetch('my-key') // => null
+
+```
+
 ## Usage
 ##### Store item
 ```js
@@ -19,14 +33,12 @@ BetterStorage.set('some-key', { some: 'value' });
 
 ##### Fetch item
 ```js
-BetterStorage.fetch('some-key'); // => { some: 'value' }
+BetterStorage.fetch('some-key');
 ```
 
 #### Remove item
 ```js
 BetterStorage.remove('some-key');
-
-BetterStorage.fetch('some-key'); // => null
 ```
 
 ## License
