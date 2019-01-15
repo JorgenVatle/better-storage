@@ -10,7 +10,7 @@ interface LocalStorage {
 export default new class BetterStorage {
 
     // @ts-ignore
-    private storage: LocalStorage = Meteor._localStorage;
+    private storage: LocalStorage = Meteor._localStorage || window.localStorage;
 
     /**
      * Fetch and parse item from local storage.
