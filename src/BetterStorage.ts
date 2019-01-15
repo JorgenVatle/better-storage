@@ -1,5 +1,3 @@
-import { Meteor } from 'meteor/meteor';
-
 /**
  * Meteor _localStorage instance methods.
  */
