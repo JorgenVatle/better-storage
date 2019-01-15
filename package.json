@@ -1,6 +1,6 @@
 {
   "name": "meteor-better-storage",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Store JavaScript objects using Meteor's localStorage utility.",
   "main": "dist/BetterStorage.js",
   "types": "./dist/better-storage.d.ts",
