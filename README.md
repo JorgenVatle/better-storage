@@ -1,5 +1,5 @@
 # Better Local Storage for Meteor
-A very simple wrapper around Meteor's `_localStorage` interface enabling conversion and storage of JavaScript objects.
+A very simple wrapper around Meteor's `_localStorage` interface enabling conversion and storage of JavaScript objects, retaining types.
 
 ## Install
 ```bash
